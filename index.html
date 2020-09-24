@@ -1,19 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header class="top_header_area">
-        <section>
-            <div class="inner_header_content"></div>
-            <div class="social_area"></div>
-            <div class="search_area"></div>
-        </section>
-    </header>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/brands.css" />
+    <link rel="stylesheet" href="css/solid.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ec2a697824.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('.slider').bxSlider();
+      });
+    </script>
     
-</body>
+    </head>
+  </head>
+  <body>
+      <!-- top_header -->
+    <header class="top_header_area">
+      <section>
+        <div class="inner_header content">
+          <div class="social_area">
+            <ul>
+              <li>
+                <a href=""><i class="fab fa-facebook-square"></i></i></a>
+                <a href=""><i class="fab fa-linkedin"></i></i></a>
+                <a href=""><i class="fab fa-twitter-square"></i></i></a>
+                <a href=""><i class="fab fa-instagram-square"></i></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="search_area">
+              <form action="">
+                  <input type="text" placeholder="search in our website">
+                  <input type="submit" value="search">
+              </form>
+          </div>
+        </div>
+      </section>
+
+    </header>
+    <!-- logo_area -->
+    <!-- <header>
+                <section class="logo_area">
+                    <a href=""><img src="img/logo.png" alt="logo"></a>
+                </section>
+    </header> -->
+    <!-- nav-bar -->
+    <nav class="main_menu">
+        <ul id="menu" class="content">
+            <li><a href="">HOME</a></li>
+            <li><a href="">STYLE DEMO</a></li>
+            <li><a href="">FULL WIDTH</a></li>
+            <li><a href="">DROPDOWN</a></li>
+            <li><a href="">PORTFOLIO</a></li>
+            <li><a href="">GALLERY</a></li>
+            <li><a href="">LONG TEXT LINK</a></li>
+        </ul>
+    </nav>
+    <!-- slider -->
+        <section class="slider_area">
+          <div class="slider">
+            <div class="slider_images">
+              <img src="img/banner.jpg" alt="">
+            </div>
+            <div class="slider_images">
+              <img src="img/banner2.jpg" alt="">
+            </div>
+            <div class="slider_images">
+              <img src="img/banner.jpg" alt="">
+            </div>
+            <div class="slider_images">
+              <img src="img/banner2.jpg" alt="">
+            </div>
+          </div>
+        </section>
+    <!-- welcome area -->
+            <section class="welcome_area">
+              <div class="inner_welcome content">
+                <div class="left_welcome">
+                  <h3>Our Story</h3>
+                  <p>Before Fullstack Academy came to life, co-founders and co-CEOs David Yang and Nimit Maru worked as software engineers
+                  and leaders at top companies and startups.</p>
+                  <p>They started hosting coding seminars and realized that providing a high-quality, immersive coding education at an
+                  accelerated pace was not only impactful but also scalable.</p>
+                  <p>Fullstack Academy was founded with the idea that coding and software development have the power to positively influence
+                  communities and economies, and as we continue to grow, we will continue to focus on teaching the technologies that power
+                  the future.</p>
+                  <a href="#">Read More ›</a>
+                </div>
+                <div class="right_welcome">
+                  <img src="img/about2.png" alt="">
+                </div>
+              </div>
+            </section>
+    <!-- welcome -->
+
+
+  </body>
 </html>
